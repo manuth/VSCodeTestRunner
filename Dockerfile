@@ -8,4 +8,3 @@ RUN apt-get install -y \
         libxss-dev \
         libasound-dev \
         xvfb
-RUN sed -i '/.*/{H;$!d} ; x ; s/<!--\n\s*These are the default Unicode.*-->.*<blank>.*<\/blank>//g' /etc/fonts/fonts.conf
