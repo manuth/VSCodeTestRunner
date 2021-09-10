@@ -3,6 +3,7 @@ FROM node:16
 RUN apt-get update -y && \
     apt-get upgrade -y && \
     apt-get install -y \
+        fonts-freefont-ttf \
         libnss3-dev \
         libgtk-3-dev \
         libx11-dev \
